@@ -15,10 +15,29 @@ body {
   line-height: 1.3;
 }
 
+.wrapper {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .hero {
   min-height: 100vh;
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'Goldman', cursive;
+  color: white;
+}
+
+.hero h1 span {
+  color: #a71d21;
 }
 
 .stars {
